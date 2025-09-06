@@ -2,6 +2,12 @@
 //Any **commercial use** requires a separate license from QSymbolic LLC.  
 //This software is provided **“as is”**, without warranties or conditions of any kind.
 
+//**MDI-QKD in spirit (mdi_register / mdi_qkd_top):**
+//- Alice/Bob prepare values with bases; an **untrusted matcher** grants read only on **basis match**
+//- On granted read, **true values** are output once; otherwise **noise**
+//- Any read (granted or not) → **collapse** and permanent physical disable (no reuse)
+//- Security doesn’t trust the relay: it only checks bases and never learns the secret
+
 module mdi_register (
     input  logic       clk,
     input  logic       reset,
