@@ -26,6 +26,7 @@ module collapse_register_symbolic (
   logic       kill_latch;   // physical disable latch (permanent)
 
   // Synthesizable 8-bit LFSR (x^8 + x^6 + x^5 + x^4 + 1)
+    // In production you would use an entropy source of your choosing
   logic [7:0] lfsr;
   always_ff @(posedge clk or posedge reset) begin
     if (reset)       lfsr <= 8'hA5; // nonzero seed
