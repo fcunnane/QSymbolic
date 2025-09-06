@@ -66,5 +66,3 @@ QSymbolic LLC — Francis X. Cunnane III
 ⚠️ Disclaimer: This software is provided “as is”, without warranty of any kind, express or implied.
 
 ⸻
-
-Would you like me to also generate a short tagline description (10–12 words max) you can put in the GitHub repo header for search visibility?
