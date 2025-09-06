@@ -89,3 +89,65 @@ module mdi_register (
   assign pad_enable = (read && allow_read && live) & ~kill_latch & ~fuse_blown;
 
 endmodule
+
+// ----------------------------------------------------------------------------
+// Matching Unit (Untrusted Relay): grants read only if bases match.
+// ----------------------------------------------------------------------------
+module mdi_matching_unit (
+    input  logic [1:0] basis_a,
+    input  logic [1:0] basis_b,
+    output logic       grant_read
+);
+  always_comb begin
+    grant_read = (basis_a == basis_b);
+  end
+endmodule
+
+// ----------------------------------------------------------------------------
+// Top: two MDI registers (Alice/Bob) + matching unit, with physical OE exposed.
+// ----------------------------------------------------------------------------
+module mdi_qkd_top (
+    input  logic       clk,
+    input  logic       reset,
+    input  logic       init,
+    input  logic       read,          // one-cycle strobe to both parties
+    input  logic [7:0] value_a,
+    input  logic [7:0] value_b,
+    input  logic [1:0] basis_a,
+    input  logic [1:0] basis_b,
+    input  logic       fuse_blow_a,   // per-channel fuse controls
+    input  logic       fuse_blow_b,
+    output logic [7:0] out_a,
+    output logic [7:0] out_b,
+    output logic       pad_enable_a,  // physical OEs for pads
+    output logic       pad_enable_b
+);
+
+  logic       grant_read;
+  logic [1:0] basis_out_a, basis_out_b;
+  logic       collapsed_a, collapsed_b;
+  logic       fuse_fire_a, fuse_fire_b; // route to OTP/antifuse if used
+
+  mdi_register alice (
+    .clk(clk), .reset(reset), .init(init), .read(read),
+    .value_in(value_a), .basis_in(basis_a),
+    .allow_read(grant_read),
+    .value_out(out_a), .collapsed(collapsed_a), .basis_out(basis_out_a),
+    .fuse_blow(fuse_blow_a), .pad_enable(pad_enable_a), .fuse_fire(fuse_fire_a)
+  );
+
+  mdi_register bob (
+    .clk(clk), .reset(reset), .init(init), .read(read),
+    .value_in(value_b), .basis_in(basis_b),
+    .allow_read(grant_read),
+    .value_out(out_b), .collapsed(collapsed_b), .basis_out(basis_out_b),
+    .fuse_blow(fuse_blow_b), .pad_enable(pad_enable_b), .fuse_fire(fuse_fire_b)
+  );
+
+  mdi_matching_unit matcher (
+    .basis_a(basis_out_a),
+    .basis_b(basis_out_b),
+    .grant_read(grant_read)
+  );
+
+endmodule
