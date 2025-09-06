@@ -2,6 +2,12 @@
 //Any **commercial use** requires a separate license from QSymbolic LLC.  
 //This software is provided **“as is”**, without warranties or conditions of any kind.
 
+//**“Symbolic QKD” in spirit (symbolic_qkd_register):**
+//- Randomized basis/phase at init + policy tags (ID/time window)
+//- Read succeeds only if {basis, phase, identity, time} all match
+//- Wrong/missing metadata → noise
+//- Any successful read → collapse (one-time use, no reuse)
+
 module symbolic_qkd_register (
     input  logic       clk,
     input  logic       reset,
