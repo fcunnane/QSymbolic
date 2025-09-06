@@ -2,6 +2,12 @@
 //Any **commercial use** requires a separate license from QSymbolic LLC.  
 //This software is provided **“as is”**, without warranties or conditions of any kind.
 
+//**E91 in spirit (qkd_entangled_pair):**
+//- Shared “entangled” value + common basis tag
+//- Either party’s read collapses the pair for both
+//- Matching basis → correlated outputs (same value)
+//- Mismatched basis → noise; collapse still enforced
+
 module qkd_entangled_pair (
     input  logic       clk,
     input  logic       reset,
