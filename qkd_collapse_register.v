@@ -2,6 +2,12 @@
 //Any **commercial use** requires a separate license from QSymbolic LLC.  
 //This software is provided **“as is”**, without warranties or conditions of any kind.
 
+//**BB84 in spirit:**  
+//- Random basis chosen at init  
+//- Correct basis → value revealed once  
+//- Wrong basis → noise  
+//- Read → collapse, no reuse  
+
 module qkd_collapse_register (
     input  logic       clk,
     input  logic       reset,
