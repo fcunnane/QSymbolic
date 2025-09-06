@@ -1,3 +1,7 @@
+//You may use this software for **personal, research, academic, and other noncommercial purposes** free of charge.  
+//Any **commercial use** requires a separate license from QSymbolic LLC.  
+//This software is provided **“as is”**, without warranties or conditions of any kind.
+
 module classical_room_register (
     input  logic       clk,
     input  logic       reset,
