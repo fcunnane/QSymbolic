@@ -61,6 +61,16 @@ For commercial licensing (semiconductors, telecom, satellite, defense, etc.), pl
 QSymbolic LLC — Francis X. Cunnane III
 📧 frank@qsymbolic.com | 🌐 qsymbolic.com
 
+🤖 Use of LLM/AI Assistance
+
+Development of this repository included the use of large language model (LLM) tools (e.g., OpenAI ChatGPT) to assist with:
+	•	Drafting boilerplate Verilog modules, testbenches, and integration stubs.
+	•	Generating documentation summaries, README outlines, and license text.
+	•	Brainstorming architectural descriptions and non-confidential explanatory materials.
+
+All code and documentation were reviewed, tested, and curated by QSymbolic LLC.
+The use of AI tools does not affect copyright ownership — all rights remain with QSymbolic LLC, Francis X. Cunnane III.
+
 ⸻
 
 ⚠️ Disclaimer: This software is provided “as is”, without warranty of any kind, express or implied.
