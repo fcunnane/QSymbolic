@@ -1,48 +1,60 @@
-# PolyForm Noncommercial License 1.0.0
-
-**ROOM Project**  
-Copyright (c) 2025 QSymbolic LLC, Francis X. Cunnane III  
+(c) 2025 QSymbolic LLC and Francis X. Cunnane III  
+All rights reserved.
 
 ---
 
-## 📖 License Summary
-You may use this software for **personal, research, academic, and other noncommercial purposes** free of charge.  
-Any **commercial use** requires a separate license from QSymbolic LLC.  
-This software is provided **“as is”**, without warranties or conditions of any kind.
+## 📖 License Summary (Noncommercial Use Only)
+
+You may use this software for **personal, academic, research, and other noncommercial purposes** free of charge.  
+**Any commercial use is prohibited** without a separate written license from QSymbolic LLC.
+
+This software is provided **“AS IS”**, without warranties or conditions of any kind.
 
 ---
 
 ## 📜 Full License Text
 
 ### Acceptance
-By using the software, you agree to all of the terms below.
+By accessing or using this software, you agree to all terms of this license.
 
 ### Copyright License
-The licensor grants you a nonexclusive, worldwide, non-transferable license to use, copy, modify, and distribute the software, with or without modifications, for **noncommercial purposes only**.
+The licensor grants you a nonexclusive, worldwide, non-transferable, non-sublicensable license to:
+- use, copy, modify, and distribute the software  
+- solely for **noncommercial purposes**
 
-### Noncommercial Purposes
-- **Allowed:** personal projects, teaching, academic research, testing, evaluation.  
-- **Not Allowed without commercial license:** providing the software to third parties for a fee, using it in a paid service, or including it in a product for sale.  
+### Noncommercial Scope
+**Permitted (Noncommercial):**
+- personal experimentation and hobby use  
+- academic teaching, coursework, and research  
+- evaluation for noncommercial study  
+- publication of academic results based on this work  
 
-### Conditions
-You must include the following notice in all copies or substantial portions of the software:
+**Prohibited Without Commercial License:**
+- inclusion in a product or service  
+- internal corporate use related to a product, service, contract, or revenue  
+- funded research or development (industry or government)  
+- consulting, paid work, or contract deliverables  
+- defense, semiconductor, satellite, telecom, or enterprise use  
 
-ROOM — Copyright (c) 2025 QSymbolic LLC, Francis X. Cunnane III
-Licensed under the PolyForm Noncommercial License 1.0.0
-See the LICENSE file in the project root for full license text.
+### Required Notice
+All copies or substantial portions of the software must include:
 
-### No Other Rights
-This license does not grant you rights to use the trademarks, service marks, or names of the licensor.
+ROOM — (c) 2025 QSymbolic LLC and Francis X. Cunnane III  
+Licensed under the PolyForm Noncommercial License 1.0.0  
+See the LICENSE file for the complete license.
+
+### No Trademark Rights
+This license does not grant rights to use the trademarks, service marks, brand names, or trade dress of QSymbolic LLC.
 
 ### Disclaimer
-THE SOFTWARE IS PROVIDED **“AS IS”**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.  
+THE SOFTWARE IS PROVIDED **“AS IS”**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.  
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY.
 
 ---
 
 ## 💼 Commercial Licensing
-For **commercial use** of ROOM, please contact:
+Commercial use of ROOM, Atomic Memory, collapse-cell logic, or any derivative requires a separate license.
 
 **QSymbolic LLC**  
-Email: frank@qsymbolic.com 
-Website: Qsymbolic.com
+Email: frank@qsymbolic.com  
+Web: https://qsymbolic.com  
