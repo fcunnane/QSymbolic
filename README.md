@@ -63,7 +63,6 @@ QSymbolic LLC — Francis X. Cunnane III
 
 
 All code and documentation were reviewed, tested, and curated by QSymbolic LLC.
-The use of AI tools does not affect copyright ownership — all rights remain with QSymbolic LLC, Francis X. Cunnane III.
 
 ⸻
 
