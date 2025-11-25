@@ -65,7 +65,6 @@ All modules are directly derived from the RTL disclosed in the Atomic Memory™ 
 This work is Patent Pending under:
 
 U.S. Patent Application: US 19/286,600
-Title: Post-Algebraic Cryptography Using Atomic (Read-Once-Only) Memory
 Filed and owned by QSymbolic LLC.
 
 This repository provides an evaluative, academic-only reference implementation of the disclosed techniques.
