@@ -1,60 +1,60 @@
-(c) 2025 QSymbolic LLC and Francis X. Cunnane III  
-All rights reserved.
+This is NOT an Open Source Initiative (OSI) approved license.
 
----
+READ ONLY-ONCE MEMRORY ROOM™ Reference Implementation  
+Copyright (c) 2025 QSymbolic LLC  
+Patent Pending: US 19/286,600
 
-## 📖 License Summary (Noncommercial Use Only)
+Permission is hereby granted, free of charge, to any person obtaining 
+a copy of this Software and associated documentation files (the 
+"Software") to use, copy, modify, merge, publish, and distribute the 
+Software exclusively for the following NON-COMMERCIAL purposes:
 
-You may use this software for **personal, academic, research, and other noncommercial purposes** free of charge.  
-**Any commercial use is prohibited** without a separate written license from QSymbolic LLC.
+ • academic research  
+ • peer review and reproducibility  
+ • evaluation and testing  
+ • prototyping and architectural study  
+ • teaching and classroom use  
+ • non-commercial experimentation
 
-This software is provided **“AS IS”**, without warranties or conditions of any kind.
+subject to the following conditions:
 
----
+1. Commercial Use Requires a Separate License  
+   Any use of the Software or any derivative work in a commercial 
+   product, commercial service, or for commercial advantage of any 
+   kind requires a written commercial license from QSymbolic LLC. 
+   This includes—without limitation—use in ASICs, FPGAs, SoCs, secure 
+   elements, microcontrollers, cloud services, embedded devices, 
+   cryptographic hardware, or any deployed product.
 
-## 📜 Full License Text
+2. Patent Rights  
+   The Software is provided for research and evaluation under a 
+   limited, non-exclusive, non-commercial patent grant. No rights to 
+   practice, implement, manufacture, or commercialize the Atomic 
+   Memory™ / Read-Once Memory technology are granted or implied. 
+   Any commercial implementation—whether modified or unmodified—
+   requires a separate patent license from QSymbolic LLC.
 
-### Acceptance
-By accessing or using this software, you agree to all terms of this license.
+3. No Derivative Works for Commercial Use  
+   You may modify the Software for non-commercial research. However, 
+   modified versions may not be used, published, or distributed for 
+   any commercial purpose without an appropriate commercial license.
 
-### Copyright License
-The licensor grants you a nonexclusive, worldwide, non-transferable, non-sublicensable license to:
-- use, copy, modify, and distribute the software  
-- solely for **noncommercial purposes**
+4. Redistribution and Attribution  
+   Any redistribution of the Software, in source or binary form, 
+   must retain this license notice and attribution to QSymbolic LLC 
+   as the original author.
 
-### Noncommercial Scope
-**Permitted (Noncommercial):**
-- personal experimentation and hobby use  
-- academic teaching, coursework, and research  
-- evaluation for noncommercial study  
-- publication of academic results based on this work  
+5. No Warranty  
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+   EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES 
+   OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND 
+   NONINFRINGEMENT.
 
-**Prohibited Without Commercial License:**
-- inclusion in a product or service  
-- internal corporate use related to a product, service, contract, or revenue  
-- funded research or development (industry or government)  
-- consulting, paid work, or contract deliverables  
-- defense, semiconductor, satellite, telecom, or enterprise use  
+6. Limitation of Liability  
+   IN NO EVENT SHALL QSYMBOLIC LLC OR THE AUTHORS BE LIABLE FOR ANY 
+   CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM THE SOFTWARE OR 
+   FROM ITS USE, MISUSE, OR INABILITY TO USE THE SOFTWARE.
 
-### Required Notice
-All copies or substantial portions of the software must include:
-
-ROOM — (c) 2025 QSymbolic LLC and Francis X. Cunnane III  
-Licensed under the PolyForm Noncommercial License 1.0.0  
-See the LICENSE file for the complete license.
-
-### No Trademark Rights
-This license does not grant rights to use the trademarks, service marks, brand names, or trade dress of QSymbolic LLC.
-
-### Disclaimer
-THE SOFTWARE IS PROVIDED **“AS IS”**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.  
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY.
-
----
-
-## 💼 Commercial Licensing
-Commercial use of ROOM, Atomic Memory, collapse-cell logic, or any derivative requires a separate license.
-
-**QSymbolic LLC**  
-Email: frank@qsymbolic.com  
-Web: https://qsymbolic.com  
+Commercial licensing inquiries:  
+QSymbolic LLC  
+Email: frank@qsymbolic.com
