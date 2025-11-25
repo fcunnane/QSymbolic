@@ -1,3 +1,5 @@
+PATENT PENDING. 
+
 ROOM: Read-Once-Only Memory (Verilog Reference Implementation)
 
 ROOM (Read-Once-Only Memory) is a post-algebraic, quantum-inspired cryptographic primitive developed by QSymbolic LLC.
