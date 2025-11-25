@@ -27,6 +27,7 @@ This repository contains the official reference Verilog modules implementing the
 
 📂 Repository Contents
 	•	collapse_register_keyexchange.sv — ephemeral key release with KDF
+	•	collapse_register_symbolic.sv -
 	•	qkd_collapse_register.sv — BB84-style collapse emulation
 	•	qkd_entangled_pair.sv — E91-inspired entangled memory pair
 	•	mdi_qkd_top.sv — MDI-QKD demo for ROOM
