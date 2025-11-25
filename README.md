@@ -1,4 +1,4 @@
-![ROOM Logo](images/ROOM Logo.png)
+![ROOM Logo](images/ROOM%20Logo.png)
 
 
 (Verilog Reference Implementation — Patent Pending)
