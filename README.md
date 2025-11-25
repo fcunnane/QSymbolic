@@ -72,24 +72,52 @@ This repository provides an evaluative, academic-only reference implementation o
 
 ⸻
 
-📜 License
+# 📜 **License**
 
-This project is licensed under the PolyForm Noncommercial License 1.0.0.
-	•	✅ Free for personal, academic, research, and noncommercial use
-	•	🚫 Commercial use prohibited — including ASIC/FPGA/SoC integration, security appliances, telecom products, cloud services, or any revenue-generating deployment
-	•	➡️ A commercial license is required for any commercial application
+This project is distributed under the **QSymbolic Non-Commercial Research License**.
 
-Commercial Licensing
+### ✔ Allowed (Free of Charge)
 
-For semiconductor, telecom, cloud, defense, or consumer-device licensing, contact:
+You may use this software for:
 
-QSymbolic LLC — Francis X. Cunnane III
-📧 frank@qsymbolic.com
-🌐 https://qsymbolic.com
+* **Personal / Individual study**
+* **Academic research**
+* **Peer review & reproducibility**
+* **Teaching & classroom use**
+* **Prototyping & evaluation**
+* **Non-commercial experimentation**
 
-⸻
+### 🚫 Not Allowed (Without Commercial License)
 
-⚠️ Disclaimer
+**Commercial use is strictly prohibited.**
+This includes (but is not limited to):
 
-This software is provided “as is”, without warranty of any kind, express or implied.
-Use at your own risk. No guarantee of correctness, robustness, suitability, or cryptographic security is provided.
+* ASIC, FPGA, SoC, or secure-element **integration**
+* Hardware security modules (HSM), KMS, or key-management infrastructure
+* Telecom / satellite / mobile (e.g., 5G/6G) products
+* Cloud services, embedded devices, IoT deployments
+* Consumer electronics or any **revenue-generating** product
+* Any derivative work used for commercial advantage
+
+A **separate commercial license is required** for all commercial applications.
+
+---
+
+# 🔒 **Patent Notice**
+
+This implementation is covered by:
+**U.S. Patent Pending — Application No. US 19/286,600**
+No rights to practice, commercialize, or manufacture ROOM™ / Atomic Memory™ are granted or implied.
+
+---
+
+# 💼 **Commercial Licensing**
+
+For commercial evaluations, silicon integration, or OEM licensing:
+
+**QSymbolic LLC — Francis X. Cunnane III**
+📧 **[frank@qsymbolic.com](mailto:frank@qsymbolic.com)**
+🌐 **[https://qsymbolic.com](https://qsymbolic.com)**
+
+---
+e of correctness, robustness, suitability, or cryptographic security is provided.
