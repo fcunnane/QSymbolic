@@ -16,6 +16,7 @@ This repository contains the official reference Verilog modules implementing the
 ⸻
 
 ✨ Key Features
+
 	•	Read-once enforcement — secrets collapse and are permanently destroyed after the first qualified read.
 	•	Metadata gating — access requires correct basis, phase, tags, or protocol-specific conditions.
 	•	Collapse latch — same-cycle, deterministic disable after disclosure.
@@ -26,6 +27,7 @@ This repository contains the official reference Verilog modules implementing the
 ⸻
 
 📂 Repository Contents
+
 	•	collapse_register_keyexchange.sv — ephemeral key release with KDF
 	•	collapse_register_symbolic.sv -
 	•	qkd_collapse_register.sv — BB84-style collapse emulation
@@ -39,6 +41,7 @@ All modules are directly derived from the RTL disclosed in the Atomic Memory™ 
 ⸻
 
 🔒 Security Properties
+
 	•	Post-algebraic & post-quantum — independent of hardness assumptions (lattice, multivariate, code-based).
 	•	Quantum-inspired no-cloning — secrets self-destroy after measurement/decapsulation.
 	•	QKD-style intrusion detectability — wrong-basis reads collapse the state and raise error rates.
@@ -48,6 +51,7 @@ All modules are directly derived from the RTL disclosed in the Atomic Memory™ 
 ⸻
 
 🛰️ Applications
+
 	•	6G mobile radios — ultralow-latency ephemeral rekeying
 	•	Satellites & swarms — collapse-driven group rekeying or distributed QKD-like state sharing
 	•	Cloud KMS / HSMs — tamper-evident ephemeral per-tenant keys
