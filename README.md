@@ -1,4 +1,5 @@
-🧬 ROOM: Read-Once-Only Memory
+![ROOM Logo]()
+
 
 (Verilog Reference Implementation — Patent Pending)
 
